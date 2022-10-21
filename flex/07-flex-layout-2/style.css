@@ -26,3 +26,54 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*Answer*/
+body {
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+}
+.content{
+  flex: 1;
+  display: flex;
+}
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+}
+ul{
+  padding: 0px 16px;
+}
+li{
+  list-style: none;
+}
+a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.cardsection{
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:24px
+}
+.card{
+  width: 300px;
+  height: 300px;
+  padding: 16px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
